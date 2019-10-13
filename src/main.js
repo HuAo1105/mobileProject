@@ -8,7 +8,9 @@ import {
   NavBar,
   Field,
   CellGroup,
-  Toast
+  Toast,
+  Row,
+  Col
 } from 'vant' // 按需加载，如果在全局注册，打包时文件太大
 Vue // 注册
   .use(Button)
@@ -16,6 +18,8 @@ Vue // 注册
   .use(Field)
   .use(CellGroup)
   .use(Toast)
+  .use(Row)
+  .use(Col)
 
 Vue.config.productionTip = false
 
